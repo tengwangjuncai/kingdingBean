@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="KGk-i7-Jjw" customClass="LoLVideoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="379" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3iK-yk-EHp">
+                        <rect key="frame" x="8" y="7" width="100" height="66"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="0X5-FS-UZ1"/>
+                            <constraint firstAttribute="height" constant="66" id="hB5-wg-ys8"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9D-2m-tdF">
+                        <rect key="frame" x="116" y="8" width="255" height="38"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="38" id="ITI-on-MWp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IxP-bs-CVn">
+                        <rect key="frame" x="116" y="54" width="255" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="cPw-cn-VPG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.16591698232323238" green="0.16591698232323238" blue="0.16591698232323238" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="competiton_centre_main_live_play_mark.png" translatesAutoresizingMaskIntoConstraints="NO" id="HXN-gD-zwK">
+                        <rect key="frame" x="38" y="20" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="5Sn-0g-5Ia"/>
+                            <constraint firstAttribute="height" constant="40" id="mve-IK-wSx"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="m9D-2m-tdF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="8WQ-5F-dho"/>
+                    <constraint firstItem="3iK-yk-EHp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="FKE-XB-hvM"/>
+                    <constraint firstAttribute="trailing" secondItem="IxP-bs-CVn" secondAttribute="trailing" constant="8" id="KJc-JP-2bh"/>
+                    <constraint firstItem="3iK-yk-EHp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="TbU-mW-RQa"/>
+                    <constraint firstItem="HXN-gD-zwK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="30" id="Zi0-Vv-0gP"/>
+                    <constraint firstItem="m9D-2m-tdF" firstAttribute="leading" secondItem="3iK-yk-EHp" secondAttribute="trailing" constant="8" id="br0-iW-tpa"/>
+                    <constraint firstItem="IxP-bs-CVn" firstAttribute="top" secondItem="m9D-2m-tdF" secondAttribute="bottom" constant="8" id="cUs-sF-HMy"/>
+                    <constraint firstAttribute="trailing" secondItem="m9D-2m-tdF" secondAttribute="trailing" constant="8" id="ghR-3r-72A"/>
+                    <constraint firstItem="IxP-bs-CVn" firstAttribute="leading" secondItem="3iK-yk-EHp" secondAttribute="trailing" constant="8" id="x24-Kn-Cqa"/>
+                    <constraint firstItem="HXN-gD-zwK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="12" id="yL8-7B-nqv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="inforLabel" destination="IxP-bs-CVn" id="lkC-Li-IDm"/>
+                <outlet property="titleLabel" destination="m9D-2m-tdF" id="PEi-kl-var"/>
+                <outlet property="videoImageView" destination="3iK-yk-EHp" id="NlV-lL-EP2"/>
+            </connections>
+            <point key="canvasLocation" x="245.5" y="249"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="competiton_centre_main_live_play_mark.png" width="32" height="32"/>
+    </resources>
+</document>

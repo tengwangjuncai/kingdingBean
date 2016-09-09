@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="65" id="KGk-i7-Jjw" customClass="LoLTextVideoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="379" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jXN-ns-T45">
+                        <rect key="frame" x="8" y="8" width="100" height="66"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="7al-fb-jac"/>
+                            <constraint firstAttribute="height" constant="66" id="nNw-wk-nK2"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u15-fN-JMQ">
+                        <rect key="frame" x="116" y="8" width="255" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="e8C-RB-VCn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="competiton_centre_main_live_play_mark.png" translatesAutoresizingMaskIntoConstraints="NO" id="k4q-7e-osy">
+                        <rect key="frame" x="67" y="33" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="KU1-8I-ecF"/>
+                            <constraint firstAttribute="width" constant="32" id="o2r-3l-Yc0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="视频" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6GR-Xg-qIM">
+                        <rect key="frame" x="327" y="56" width="44" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="7h5-Hm-nNV"/>
+                            <constraint firstAttribute="width" constant="44" id="ef6-Nv-5F4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.3715080492424242" green="0.3715080492424242" blue="0.3715080492424242" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0z8-CE-zsd">
+                        <rect key="frame" x="116" y="30" width="242" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="cKk-0q-jZ2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.22510258838383834" green="0.22510258838383834" blue="0.22510258838383834" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="6GR-Xg-qIM" secondAttribute="trailing" constant="8" id="DRW-sN-iID"/>
+                    <constraint firstItem="0z8-CE-zsd" firstAttribute="leading" secondItem="jXN-ns-T45" secondAttribute="trailing" constant="8" id="IML-q3-8PW"/>
+                    <constraint firstItem="jXN-ns-T45" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Jqv-Lh-rcW"/>
+                    <constraint firstItem="jXN-ns-T45" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Pux-yz-lA8"/>
+                    <constraint firstAttribute="trailing" secondItem="0z8-CE-zsd" secondAttribute="trailing" constant="21" id="Uz6-L1-xqD"/>
+                    <constraint firstItem="k4q-7e-osy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="59" id="ZIj-6j-qfc"/>
+                    <constraint firstAttribute="bottom" secondItem="6GR-Xg-qIM" secondAttribute="bottom" constant="5" id="exg-mN-QQ0"/>
+                    <constraint firstItem="u15-fN-JMQ" firstAttribute="leading" secondItem="jXN-ns-T45" secondAttribute="trailing" constant="8" id="oTL-aI-Im2"/>
+                    <constraint firstItem="u15-fN-JMQ" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="sjq-Rw-ljx"/>
+                    <constraint firstItem="k4q-7e-osy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="25" id="tcn-5q-fF5"/>
+                    <constraint firstItem="u15-fN-JMQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="ttb-FQ-ytd"/>
+                    <constraint firstItem="0z8-CE-zsd" firstAttribute="top" secondItem="u15-fN-JMQ" secondAttribute="bottom" constant="1" id="xXf-Hl-GYi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lolImageView" destination="jXN-ns-T45" id="pwg-da-qW0"/>
+                <outlet property="summaryLabel" destination="0z8-CE-zsd" id="8ZZ-VO-Gdz"/>
+                <outlet property="titleLabe" destination="u15-fN-JMQ" id="QgY-gZ-1pU"/>
+            </connections>
+            <point key="canvasLocation" x="247.5" y="280"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="competiton_centre_main_live_play_mark.png" width="32" height="32"/>
+    </resources>
+</document>

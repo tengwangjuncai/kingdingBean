@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>className</key>
+		<string>NewsViewController</string>
+		<key>imageNormal</key>
+		<string>tabbar_icon_news_normal</string>
+		<key>imageHighlight</key>
+		<string>tabbar_icon_news_highlight@2x</string>
+		<key>title</key>
+		<string>逗 文</string>
+	</dict>
+	<dict>
+		<key>className</key>
+		<string>VideoViewController</string>
+		<key>imageNormal</key>
+		<string>tabbar_icon_media_normal</string>
+		<key>imageHighlight</key>
+		<string>tabbar_icon_media_highlight</string>
+		<key>title</key>
+		<string>视 频</string>
+	</dict>
+	<dict>
+		<key>className</key>
+		<string>CartoonViewController</string>
+		<key>imageNormal</key>
+		<string>tabbar_icon_reader_highlight</string>
+		<key>imageHighlight</key>
+		<string>tabbar_icon_reader_highlight</string>
+		<key>title</key>
+		<string>漫 画</string>
+	</dict>
+	<dict>
+		<key>className</key>
+		<string>MeViewController</string>
+		<key>imageNormal</key>
+		<string>tabbar_icon_me_normal</string>
+		<key>imageHighlight</key>
+		<string>tabbar_icon_me_highlight</string>
+		<key>title</key>
+		<string>我</string>
+	</dict>
+</array>
+</plist>

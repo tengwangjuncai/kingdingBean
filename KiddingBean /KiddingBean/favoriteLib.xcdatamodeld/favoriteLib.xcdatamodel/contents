@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F1509" minimumToolsVersion="Xcode 7.0">
+    <entity name="Cartoon" representedClassName="Cartoon" syncable="YES">
+        <attribute name="comic_author_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comic_click_total" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comic_cover" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comic_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comic_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comic_theDescrition" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="KiddingPic" representedClassName="KiddingPic" syncable="YES">
+        <attribute name="mode_comments_count" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode_content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode_ID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode_image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode_share_count" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_ID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_login" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="KiddingVideo" representedClassName="KiddingVideo" syncable="YES">
+        <attribute name="mode_comments_count" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode_high_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode_ID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode_low_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode_pic_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode_share_count" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mpde_content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_login" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LoLVideo" representedClassName="LoLVideo" syncable="YES">
+        <attribute name="bigImage_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode_downlod_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="watchCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Short_message" representedClassName="Short_message" syncable="YES">
+        <attribute name="imageH" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageW" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode_comments_count" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode_content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode_ID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode_image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mode_share_count" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_ID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_login" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Cartoon" positionX="9" positionY="54" width="128" height="135"/>
+        <element name="KiddingPic" positionX="0" positionY="45" width="128" height="150"/>
+        <element name="KiddingVideo" positionX="27" positionY="72" width="128" height="195"/>
+        <element name="LoLVideo" positionX="54" positionY="99" width="128" height="165"/>
+        <element name="Short_message" positionX="-36" positionY="9" width="128" height="195"/>
+    </elements>
+</model>

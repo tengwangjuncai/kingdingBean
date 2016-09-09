@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IntroduceViewController">
+            <connections>
+                <outlet property="iconImageView" destination="XfX-Hf-8qZ" id="uf9-sH-TEN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="逗豆在手，天下你有" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQy-iB-Yir">
+                    <rect key="frame" x="22" y="238" width="330" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="b17-6t-Op2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                    <color key="textColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="专属你的娱乐世界" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2F-d5-dMC">
+                    <rect key="frame" x="22" y="290" width="330" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="nuO-eS-RDl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                    <color key="textColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="XfX-Hf-8qZ">
+                    <rect key="frame" x="116" y="46" width="143" height="134"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="XfX-Hf-8qZ" secondAttribute="height" multiplier="1:1" constant="9" id="Jt9-bX-W9g"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="       逗豆，一个你必不可少的娱乐软件。这里有幽默风趣的段子，这里有引你发狂的囧图，这里有内涵炫酷的漫画，这里有惊爆眼球的瞬间，更有最新的LoL资讯，高手玩家的的英雄时刻…… 你想要的都尽在逗豆，属于你的独家娱乐。" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bn3-f9-gmx">
+                    <rect key="frame" x="22" y="368" width="342" height="266"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="bn3-f9-gmx" secondAttribute="trailing" constant="11" id="6yf-Og-ED9"/>
+                <constraint firstItem="XfX-Hf-8qZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="116" id="7f3-IJ-gwf"/>
+                <constraint firstItem="w2F-d5-dMC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="22" id="9pl-DM-QBO"/>
+                <constraint firstItem="bn3-f9-gmx" firstAttribute="top" secondItem="w2F-d5-dMC" secondAttribute="bottom" constant="46" id="Rbc-mo-sec"/>
+                <constraint firstItem="HQy-iB-Yir" firstAttribute="top" secondItem="XfX-Hf-8qZ" secondAttribute="bottom" constant="58" id="S4J-6g-T66"/>
+                <constraint firstItem="bn3-f9-gmx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="22" id="WTx-0j-r2v"/>
+                <constraint firstAttribute="trailing" secondItem="w2F-d5-dMC" secondAttribute="trailing" constant="23" id="Xuj-fq-eYF"/>
+                <constraint firstAttribute="bottom" secondItem="bn3-f9-gmx" secondAttribute="bottom" constant="33" id="boZ-Yq-xos"/>
+                <constraint firstItem="HQy-iB-Yir" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="22" id="geh-72-UGM"/>
+                <constraint firstAttribute="trailing" secondItem="XfX-Hf-8qZ" secondAttribute="trailing" constant="116" id="jGW-Wo-tNW"/>
+                <constraint firstItem="w2F-d5-dMC" firstAttribute="top" secondItem="HQy-iB-Yir" secondAttribute="bottom" constant="20" id="l84-Lz-X17"/>
+                <constraint firstItem="XfX-Hf-8qZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="46" id="szp-I9-jV6"/>
+                <constraint firstAttribute="trailing" secondItem="HQy-iB-Yir" secondAttribute="trailing" constant="23" id="uSr-hL-YwP"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="233.5" y="352.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon.png" width="60" height="60"/>
+    </resources>
+</document>

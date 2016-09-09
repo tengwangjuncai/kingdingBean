@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>我的收藏</string>
+		<key>image</key>
+		<string>share_btn_qzone_img_icon_normal</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>清除缓存</string>
+		<key>image</key>
+		<string>u=223752806,798297759&amp;fm=21&amp;gp=0</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>夜间模式</string>
+		<key>image</key>
+		<string>u=63607712,862962165&amp;fm=21&amp;gp=0</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>关于软件</string>
+		<key>image</key>
+		<string>u=3594143242,2759672401&amp;fm=21&amp;gp=0</string>
+	</dict>
+</array>
+</plist>
