@@ -107,9 +107,9 @@
     NSLog(@"%@",[self urlStr]);
     if ([self urlStr]) {
         [engine GET:[self urlStr] success:^(id response) {
-           // NSLog(@"请求成功---%@",response);
+            NSLog(@"请求成功---%@",response);
             NSArray *items = response[@"items"];
-            //NSLog(@"********************%@",items);
+            NSLog(@"********************%@",items);
             [CacheManager saveData:items withUrl:[self urlStr]];
             
             //解析数据
@@ -142,6 +142,7 @@
         TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
         WPYFirstModel *mode = self.dataSource[indexPath.row];
         [cell configData:mode];
+    NSLog(@"^^^^^^^^^%@",mode);
         return cell;
     
 }

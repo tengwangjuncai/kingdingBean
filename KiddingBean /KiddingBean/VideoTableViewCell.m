@@ -83,7 +83,7 @@
     [self insertData];
 }
 -(void)shareBtnPressed:(UIButton *)sender {
-    NSString *str = [NSString stringWithFormat:@"%@  %@",self.mode.content,self.mode.high_url];
+    NSString *str = [NSString stringWithFormat:@"%@  %@",self.mode.content,self.mode.high_loc];
     [[ShareTool shareManager] shareWithTheStr:str andImageUrl:self.mode.pic_url];
 }
 
@@ -107,8 +107,8 @@
     s.mode_comments_count = self.mode.comments_count;
     s.mode_share_count = self.mode.share_count;
     
-    s.mode_low_url = self.mode.low_url;
-    s.mode_high_url =self.mode.high_url;
+    s.mode_low_url = self.mode.low_loc;
+    s.mode_high_url =self.mode.high_loc;
     
     [[NSManagedObjectContext MR_defaultContext] MR_saveToPersistentStoreWithCompletion:^(BOOL contextDidSave, NSError *error) {
         UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"逗豆提醒" message:@"收藏成功" preferredStyle:UIAlertControllerStyleAlert];
@@ -129,7 +129,7 @@
 }
 - (void)playBtnPressed:(UIButton *)sender {
    
-    [self addVideoPlayerWithURL:[NSURL URLWithString:_mode.low_url]];
+    [self addVideoPlayerWithURL:[NSURL URLWithString:_mode.low_loc]];
 }
 
 - (void)addVideoPlayerWithURL:(NSURL *)url{

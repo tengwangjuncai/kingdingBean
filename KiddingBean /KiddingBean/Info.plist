@@ -29,6 +29,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
+				<string>caddingBean.com</string>
 				<string>wxc850607934f30c31</string>
 			</array>
 		</dict>

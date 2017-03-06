@@ -140,8 +140,8 @@
         mode.comments_count = s.mode_comments_count;
         mode.share_count = s.mode_share_count;
         mode.pic_url = s.mode_pic_url;
-        mode.low_url = s.mode_low_url;
-        mode.high_url = s.mode_high_url;
+        mode.low_loc = s.mode_low_url;
+        mode.high_loc = s.mode_high_url;
         
         [self.kiddingVideoArray addObject:mode];
     }

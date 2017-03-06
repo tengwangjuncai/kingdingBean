@@ -30,7 +30,7 @@
     
     
     self.myImageView.contentMode = UIViewContentModeScaleToFill;
-    if (mode.image != NULL) {
+    if (mode.image != NULL && ![mode.image isEqualToString:@""]) {
         NSString *id5 = [mode.ID substringToIndex:5];
         NSString *imageUrl = [NSString stringWithFormat:kpic,id5,mode.ID,mode.image];
         [self.myImageView sd_setImageWithURL:[NSURL URLWithString:imageUrl] placeholderImage:[UIImage imageNamed:@"usercenter_hd_cover_1"]];

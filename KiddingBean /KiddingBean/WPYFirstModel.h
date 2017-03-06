@@ -26,8 +26,8 @@
 @property (nonatomic, strong) WPYUserModel <Optional>*user;
 @property (nonatomic, copy) NSString <Optional>*format;
 @property (nonatomic, copy) NSString <Optional>*type;
-@property (nonatomic, copy) NSString <Optional>*high_url;
-@property (nonatomic, copy) NSString <Optional>*low_url;
+@property (nonatomic, copy) NSString <Optional>*high_loc;
+@property (nonatomic, copy) NSString <Optional>*low_loc;
 @property (nonatomic, copy) NSString <Optional>*pic_url;
 @property (nonatomic, strong)LPModelJokeImage_Size <Optional>* image_size;
 @end

@@ -5,5 +5,5 @@
 
 @interface LPModelJokeImage_Size : JSONModel
 @property (nonatomic, strong) NSArray <Optional>* s;
-//@property (nonatomic, strong) NSArray <LPModelJokeM, Optional> * m;
+@property (nonatomic, strong) NSArray <Optional> * m;
 @end
