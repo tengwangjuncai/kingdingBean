@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97FE20121E7586A0006A1D57 /* WPYLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FE200F1E7586A0006A1D57 /* WPYLoginButton.m */; };
+		97FE20131E7586A0006A1D57 /* WPYSpinerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FE20111E7586A0006A1D57 /* WPYSpinerLayer.m */; };
+		97FE20161E7586E0006A1D57 /* LoginBtnAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FE20151E7586E0006A1D57 /* LoginBtnAnimationVC.m */; };
 		BC038BA61C7F087A002312A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC038BA51C7F087A002312A4 /* main.m */; };
 		BC038BA91C7F087A002312A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC038BA81C7F087A002312A4 /* AppDelegate.m */; };
 		BC038BAC1C7F087A002312A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC038BAB1C7F087A002312A4 /* ViewController.m */; };
@@ -288,6 +291,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		97FE200E1E7586A0006A1D57 /* WPYLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPYLoginButton.h; sourceTree = "<group>"; };
+		97FE200F1E7586A0006A1D57 /* WPYLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPYLoginButton.m; sourceTree = "<group>"; };
+		97FE20101E7586A0006A1D57 /* WPYSpinerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPYSpinerLayer.h; sourceTree = "<group>"; };
+		97FE20111E7586A0006A1D57 /* WPYSpinerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPYSpinerLayer.m; sourceTree = "<group>"; };
+		97FE20141E7586E0006A1D57 /* LoginBtnAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginBtnAnimationVC.h; sourceTree = "<group>"; };
+		97FE20151E7586E0006A1D57 /* LoginBtnAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginBtnAnimationVC.m; sourceTree = "<group>"; };
 		BC038BA11C7F087A002312A4 /* KiddingBean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiddingBean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC038BA51C7F087A002312A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC038BA71C7F087A002312A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -795,9 +804,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97FE200A1E7585BE006A1D57 /* loginView */ = {
+			isa = PBXGroup;
+			children = (
+				97FE20141E7586E0006A1D57 /* LoginBtnAnimationVC.h */,
+				97FE20151E7586E0006A1D57 /* LoginBtnAnimationVC.m */,
+				97FE200D1E7586A0006A1D57 /* LoginBtnAnimation */,
+			);
+			name = loginView;
+			sourceTree = "<group>";
+		};
+		97FE200D1E7586A0006A1D57 /* LoginBtnAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				97FE200E1E7586A0006A1D57 /* WPYLoginButton.h */,
+				97FE200F1E7586A0006A1D57 /* WPYLoginButton.m */,
+				97FE20101E7586A0006A1D57 /* WPYSpinerLayer.h */,
+				97FE20111E7586A0006A1D57 /* WPYSpinerLayer.m */,
+			);
+			path = LoginBtnAnimation;
+			sourceTree = "<group>";
+		};
 		BC038B981C7F087A002312A4 = {
 			isa = PBXGroup;
 			children = (
+				97FE200A1E7585BE006A1D57 /* loginView */,
 				BC038BA31C7F087A002312A4 /* KiddingBean */,
 				BC038BA21C7F087A002312A4 /* Products */,
 			);
@@ -950,7 +981,7 @@
 				BC038BD31C7F11EB002312A4 /* enter */,
 				BC087C601C86D638002676BB /* me */,
 				BC2513A91C8AB8E10047D671 /* bg_navigationBar.png */,
-                BC087C5A1C86CC05002676BB /* umeng_socialize_share_pic.png */,
+				BC087C5A1C86CC05002676BB /* umeng_socialize_share_pic.png */,
 				BC0DEF2F1C86B78D00380DB1 /* usercenter_hd_cover_1@2x.png */,
 				BC0DEF151C86B5F200380DB1 /* night_user_logoutBtn_clicked@2x.png */,
 				BC0DEF161C86B5F200380DB1 /* night_user_logoutBtn@2x.png */,
@@ -2015,6 +2046,7 @@
 				BC0872581C8E7C4B00497B84 /* KiddingVideo+CoreDataProperties.m in Sources */,
 				BCD902461C82D36D00E9D832 /* VideoModel.m in Sources */,
 				BC038C911C7F279E002312A4 /* UIView+JHExtension.m in Sources */,
+				97FE20121E7586A0006A1D57 /* WPYLoginButton.m in Sources */,
 				BC038C8C1C7F279E002312A4 /* JHRefreshConfig.m in Sources */,
 				BC3EC4E41C8047DE0014E891 /* LoLNewsViewController.m in Sources */,
 				BC038CCC1C7F27AC002312A4 /* AFURLResponseSerialization.m in Sources */,
@@ -2048,6 +2080,7 @@
 				BC038C9B1C7F279E002312A4 /* JSONValueTransformer.m in Sources */,
 				BC038BBE1C7F1033002312A4 /* BaseViewController.m in Sources */,
 				BC22FCCF1C8BF32600D83C7D /* NSNumber+MagicalDataImport.m in Sources */,
+				97FE20131E7586A0006A1D57 /* WPYSpinerLayer.m in Sources */,
 				BC038D031C7F27BA002312A4 /* UIView+WebCacheOperation.m in Sources */,
 				BC22FCD01C8BF32600D83C7D /* NSObject+MagicalDataImport.m in Sources */,
 				BC22FCD61C8BF32600D83C7D /* NSManagedObject+MagicalRecord.m in Sources */,
@@ -2123,6 +2156,7 @@
 				BC22FD081C8BFB9D00D83C7D /* Cartoon.m in Sources */,
 				BCD9025E1C83041C00E9D832 /* VideoTableViewCell.m in Sources */,
 				BC038CC81C7F27AC002312A4 /* AFNetworkReachabilityManager.m in Sources */,
+				97FE20161E7586E0006A1D57 /* LoginBtnAnimationVC.m in Sources */,
 				BC22FCE11C8BF32600D83C7D /* MagicalRecord+ErrorHandling.m in Sources */,
 				BC0D68A01C8443DE005138B5 /* NSArray+MASAdditions.m in Sources */,
 				BC038C901C7F279E002312A4 /* UIScrollView+JHRefresh.m in Sources */,

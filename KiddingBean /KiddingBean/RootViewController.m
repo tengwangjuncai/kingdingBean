@@ -11,6 +11,7 @@
 #import "AppDelegate.h"
 #import "StartGuide.h"
 #include "RecordAppLoad.h"
+#import "LoginBtnAnimationVC.h"
 @interface RootViewController ()
 @property (nonatomic, strong)UIImageView *adImageView;
 @property (nonatomic, strong)NSTimer *timer;
@@ -89,9 +90,10 @@
     //在这里判断进入那个界面
     //1 强登录 是否已经登录
     //2 不用登录 直接进入
-    TabBarController * tabBarVC = [[TabBarController alloc]init];
+   // TabBarController * tabBarVC = [[TabBarController alloc]init];
+    LoginBtnAnimationVC *loginVC = [[LoginBtnAnimationVC alloc] init];
     AppDelegate *app = [UIApplication sharedApplication].delegate;
-    app.window.rootViewController = tabBarVC;
+    app.window.rootViewController = loginVC;
 }
 /**
  *  软件导航或者显示其新特性
