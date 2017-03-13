@@ -10,6 +10,7 @@
 #import "WPYLoginButton.h"
 #import "TabBarController.h"
 #import "AppDelegate.h"
+#import "UIColor+Additions.h"
 @interface LoginBtnAnimationVC ()
 
 @property (nonatomic, strong)UISwitch *successSwith;
@@ -38,7 +39,7 @@
     [self createPassWordTextField];
     WPYLoginButton * loginBtn = [[WPYLoginButton alloc] initWithFrame:CGRectMake(30, self.view.center.y + 40, self.view.frame.size.width - 60, 44)];
     [self.view addSubview:loginBtn];
-    [loginBtn setBackgroundColor:[UIColor orangeColor]];
+    [loginBtn setBackgroundColor:[UIColor colorWithHex:0xFF20B2AA]];
     [loginBtn setTitle:@"登录" forState:UIControlStateNormal];
     [loginBtn addTarget:self action:@selector(login:) forControlEvents:UIControlEventTouchUpInside];
     

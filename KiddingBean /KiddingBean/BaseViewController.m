@@ -19,10 +19,21 @@
     // Do any additional setup after loading the view.
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"bg_navigationBar"] forBarMetrics:UIBarMetricsDefault];
     self.view.backgroundColor = [UIColor whiteColor];
-    
+    [self.navigationController.navigationBar setBackgroundColor:[UIColor orangeColor]];
  //self.edgesForExtendedLayout = UIRectEdgeNone;
 }
 
+- (UIImage *) imageWithFrame:(CGRect)frame alphe:(CGFloat)alphe {
+    frame = CGRectMake(0, 0, frame.size.width, frame.size.height);
+    UIColor *Color = [UIColor orangeColor];
+    UIGraphicsBeginImageContext(frame.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(context, [Color CGColor]);
+    CGContextFillRect(context, frame);
+    UIImage *theImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return theImage;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

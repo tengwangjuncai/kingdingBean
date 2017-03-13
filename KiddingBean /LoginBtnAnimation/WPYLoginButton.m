@@ -97,10 +97,10 @@
     [self.layer addAnimation:expandAnimation forKey:expandAnimation.keyPath];
     [_spinerLayer stopAnimation];
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-       
-//        [self didStopAnimation];
-//        [self setUserInteractionEnabled:YES];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        self.login();
+        //[self didStopAnimation];
+        [self setUserInteractionEnabled:YES];
     });
    
 }
@@ -157,7 +157,7 @@
     CABasicAnimation * animation = (CABasicAnimation *)anim;
     if ([animation.keyPath isEqualToString:@"transform.scale"]) {
         if (_login) {
-            self.login();
+            
         }
         [NSTimer scheduledTimerWithTimeInterval:0.5f target:self selector:@selector(didStopAnimation) userInfo:nil repeats:NO];
     }

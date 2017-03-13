@@ -42,6 +42,7 @@
     [_myTableView registerNib:[UINib nibWithNibName:@"TableViewCell" bundle:nil] forCellReuseIdentifier:@"cell"];
     [_myTableView registerNib:[UINib nibWithNibName:@"DetailTableViewCell" bundle:nil] forCellReuseIdentifier:@"detailCell"];
     [_myTableView registerClass:[VideoTableViewCell class] forCellReuseIdentifier:@"kidcell"];
+    _myTableView.separatorStyle = NO;
     _myTableView.showsVerticalScrollIndicator = NO;
 }
 /**

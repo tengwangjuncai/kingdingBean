@@ -288,6 +288,7 @@
 		BCF910DB1C819D0C0034DDE3 /* LoLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF910D91C819D0C0034DDE3 /* LoLDetailViewController.m */; };
 		BCF910DC1C819D0C0034DDE3 /* LoLDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF910DA1C819D0C0034DDE3 /* LoLDetailViewController.xib */; };
 		BCF910DF1C81CBBA0034DDE3 /* LoLSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF910DE1C81CBBA0034DDE3 /* LoLSubjectViewController.m */; };
+		E07304061E76497400000D29 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E07304051E76497400000D29 /* UIColor+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -778,6 +779,8 @@
 		BCF910DA1C819D0C0034DDE3 /* LoLDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoLDetailViewController.xib; sourceTree = "<group>"; };
 		BCF910DD1C81CBBA0034DDE3 /* LoLSubjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoLSubjectViewController.h; sourceTree = "<group>"; };
 		BCF910DE1C81CBBA0034DDE3 /* LoLSubjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoLSubjectViewController.m; sourceTree = "<group>"; };
+		E07304041E76497400000D29 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		E07304051E76497400000D29 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -958,6 +961,8 @@
 		BC038BC71C7F1197002312A4 /* Help */ = {
 			isa = PBXGroup;
 			children = (
+				E07304041E76497400000D29 /* UIColor+Additions.h */,
+				E07304051E76497400000D29 /* UIColor+Additions.m */,
 				BC038C4F1C7F1FDE002312A4 /* StartGuide */,
 				BC0872A11C8ECB6200497B84 /* ShareTool */,
 				BCAD073A1C8084AE007EA17D /* HttpEngine.h */,
@@ -1992,6 +1997,7 @@
 			files = (
 				BC22FD301C8D7C8500D83C7D /* FavouriteViewController.m in Sources */,
 				BC114E4A1C857B5100C3D24A /* KiddingVideoDetailViewController.m in Sources */,
+				E07304061E76497400000D29 /* UIColor+Additions.m in Sources */,
 				BCF910D21C814AAC0034DDE3 /* LoLTextTableViewCell.m in Sources */,
 				BC180EC91C880311004A33BC /* LPModelJokeReturndata.m in Sources */,
 				BC038CD61C7F27AC002312A4 /* UIRefreshControl+AFNetworking.m in Sources */,

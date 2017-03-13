@@ -38,9 +38,11 @@
     
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-     [sphereView timerStart];
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [sphereView timerStart];
 }
+
 - (void)loadDataSource {
         if (![[AFNetworkReachabilityManager sharedManager]isReachable]) {
             //读取本地数据
